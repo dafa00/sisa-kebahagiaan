@@ -2,3 +2,6 @@ markdown: redcarpet
 baseurl: /sisa-kebahagiaan
 exclude: ['README.md']
 permalink: pretty
+sass:
+  sass_dir: css
+  style: compressed

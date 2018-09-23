@@ -1,9 +1,30 @@
 <nav>
 
-	{% include nav-list.html type="general"%}
 
-	{% include nav-list.html type="components"%}
 
-	{% include nav-list.html type="foundations"%}
+</nav>
 
+<nav id="sidebar" class="navbar navbar-expand navbar-light py-4 col-md-3">
+  <div id="sidebar-container" class="container">
+    
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav flex-column nav-pills nav-fill">
+        <a id="sidebar-header" href="{{ site.baseurl }}/" class="navbar-brand">
+          <img id="logo" src="{{site.baseurl}}/img/proofn_design_logo.png" alt="logo">
+        </a>
+         
+
+        	{% include nav-list.html type="general"%}
+
+			{% include nav-list.html type="components"%}
+
+			{% include nav-list.html type="foundations"%}
+
+
+      </ul>
+    </div>
+  </div>
 </nav>
