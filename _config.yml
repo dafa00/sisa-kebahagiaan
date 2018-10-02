@@ -1,5 +1,5 @@
 karmdown: redcarpet
-baseurl: /sisa-kebahagiaan
+baseurl: ""
 exclude: ['README.md']
 permalink: pretty
 sass:
