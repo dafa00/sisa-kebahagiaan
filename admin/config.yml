@@ -15,8 +15,21 @@ public_folder: "/img" # The src attribute for uploaded media will begin with /im
 collections:
 
  - name: "page"
-   label: "Pages"
+   label: "Components"
    folder: "components"
+   sort: "title:asc"
+   create: true
+   slug: "{{slug}}"
+   fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Type", name: "type", widget: "hidden", default: "components" }
+      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Body", name: "body", widget: "markdown" }
+
+ - name: "page"
+   label: "Foundations"
+   folder: "foundations"
    sort: "title:asc"
    create: true
    slug: "{{slug}}"
