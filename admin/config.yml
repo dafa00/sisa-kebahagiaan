@@ -4,7 +4,7 @@ backend:
 
   repo: dafa00/sisa-kebahagiaan # Path to Github repository
 
-  branch: gh-pages # Branch to update
+  # branch: gh-pages # Branch to update
 
 
 # This line should *not* be indented
