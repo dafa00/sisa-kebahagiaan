@@ -1,6 +1,5 @@
 ---
 layout: default
-type: components
-title: Component 3
+title: Content Manager configuration
 ---
-You can copy this snippet and adjust values under backend variableto your needs. Leave the rest unchanged for now and do not mistake the _config.yml with admin/config.yml! These are two separate files. First one contains the Jekyll configuration, while the second one is a Netlify CMS configuration file. Now commit and push your changes. It will trigger the Netlify engine to perform another build. When you do it, project structure should be as follows:
+Add this new collection to collections variable at admin/config.yml. Set up the same machine name and directory for collection as you did it for Jekyll. You also need to set up a unique filename template. Configure all fields that you want to see in content form and optionally declare a default HTML layout for this collection and hide layout field from a form. Here is an example of a configuration from Netlify CMS docs for the new Collection called blog
