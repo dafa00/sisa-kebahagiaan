@@ -1,4 +1,6 @@
 ---
+layout: default
+type: components
 title: Component 5
 ---
 
