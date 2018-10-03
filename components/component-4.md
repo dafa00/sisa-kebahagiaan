@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+type: components
 title: Component 4
 ---
 \- name: "page"
